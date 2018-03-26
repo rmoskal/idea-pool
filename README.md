@@ -30,6 +30,3 @@ This is representative of the way I would code a production app like this, these
 I should have bcrypted the pw and would certainly have if I was using an external data store.  In memory it's probably not a big security risk, plus I figure you will have seen enough to evaluate my coding technique.
 
 
-I was confused by the [refresh token method](https://small-project-api.herokuapp.com/api-docs#accesstokens-refresh-jwt).  It seems to me that unless it returns another refresh token along with the jwt token, the client can only refresh once.  So I added it.
-
-Also I'm not sure what the point of the logout method since the jwt token can't really be marked as invalid without my saving the users current JWT token on the server.  This seemed wrong to me, so I didn't do it. All I do is to invalidate the refresh token so it can longer be used to refresh a token until the next login.

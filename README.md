@@ -4,7 +4,7 @@
 
 Little work sample for codementorX. It fulfills the requirements laid out here:
 
-https://github.com/codementordev/cm-quiz
+https://docs.google.com/document/d/1km1QpNQC2WhaNSxQ2dYbnjCv4zhu96eVthu5Nh9AmZc/edit
 
 It's the backend for a fancy to-list, with JWT authentication.
 
